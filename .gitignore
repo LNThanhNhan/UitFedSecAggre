@@ -1,0 +1,9 @@
+benignware/
+classedExeImg/
+context
+**/__pycache__/**
+*.key
+**/server_results/**
+**/.cache/**
+**/api_key.json
+**/client_results/**
