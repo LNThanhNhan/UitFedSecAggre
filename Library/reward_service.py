@@ -10,7 +10,7 @@ reward_contract=None
 with open('../Solidity/build/contracts/Reward.json') as f:
     compileJSON = json.load(f)
     abi = compileJSON['abi']
-    contract_address= compileJSON['networks']['5775']['address']
+    contract_address= compileJSON['networks']['5777']['address']
     reward_contract = web3.eth.contract(address=contract_address, abi=abi)
 
 class RewardService:
