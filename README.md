@@ -26,7 +26,7 @@ cd certificates && ./generate.sh
 ### Config IPFS to store file
 
 1. Create a [Pinata](https://app.pinata.cloud) account and generate an API key with Admin permission
-2. Copy `api_key_template.json`, create a new file named `api_key.json`, and add your API key inside
+2. Copy `api_key_template.json` in Libray folder, create a new file named `api_key.json`, and add your API key inside
 
 ### Deploy blockchain contract
 
@@ -89,6 +89,10 @@ Edit `client/config_training.json`:
      ```
 
    This will start the server and 2 clients that will connect to the server.
+
+## Important Note
+
+Before starting any federated learning session, ensure that Ganache is running with your configured workspace loaded. This is essential for the system to properly connect to the smart contract and distribute token rewards to participating clients.
 
 ## Results
 

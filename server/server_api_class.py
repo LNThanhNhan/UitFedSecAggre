@@ -5,7 +5,7 @@ import time
 from typing import Callable, Dict
 import flwr as fl
 from strategy_avg import StrategyAvg 
-from UitFedSecAggre.vanilla_system.Library.export_file_handler import save_config_file, write_json_result_for_server
+from UitFedSecAggre.Library.export_file_handler import save_config_file, write_json_result_for_server
 
 class ServerApi():
     def loadConfig(self):

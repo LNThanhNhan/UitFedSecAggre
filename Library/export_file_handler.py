@@ -1,7 +1,7 @@
 import os
 import json
 import numpy as np
-from UitFedSecAggre.vanilla_system.Library.ipfs_handler import upload_folder_to_pinata
+from UitFedSecAggre.Library.ipfs_handler import upload_folder_to_pinata
 
 def make_dir_if_not_exists(dirs):
     if not os.path.exists(dirs):

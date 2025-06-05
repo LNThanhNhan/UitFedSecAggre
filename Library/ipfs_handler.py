@@ -3,7 +3,7 @@ import pinatapy
 import requests
 import typing as tp
 import os
-from UitFedSecAggre.vanilla_system.Library.read_file import read_api_key
+from UitFedSecAggre.Library.read_file import read_api_key
 def upload_file_to_ipfs(file_path,dest_folder_name):
     pinata_api_key = None
     pinata_secret_api_key = None

@@ -1,6 +1,6 @@
 # The root Client class 
 import flwr as fl
-from UitFedSecAggre.vanilla_system.Library.export_file_handler import write_json_result_for_client
+from UitFedSecAggre.Library.export_file_handler import write_json_result_for_client
 
 class Client(fl.client.NumPyClient):
     def __init__(self, model, X_train, y_train, X_test, y_test, client_id,session,wallet_address) -> None:

@@ -23,8 +23,8 @@ from flwr.server.client_proxy import ClientProxy
 from flwr.common import Scalar
 from flwr.common import NDArrays
 from functools import reduce
-from UitFedSecAggre.vanilla_system.Library.export_file_handler import save_weights
-from UitFedSecAggre.vanilla_system.Library.reward_service import RewardService
+from UitFedSecAggre.Library.export_file_handler import save_weights
+from UitFedSecAggre.Library.reward_service import RewardService
 from tensorflow_privacy.privacy.optimizers import dp_optimizer_keras
 reward_service = RewardService()
 
